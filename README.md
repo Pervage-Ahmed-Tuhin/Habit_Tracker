@@ -20,10 +20,10 @@
 
 - **🔐 User Authentication** - Secure sign-up and login using Appwrite
 - **📝 Habit Creation** - Create customized habits with title, description, and frequency
-- **📊 Habit Tracking** - Mark habits as complete and view progress in real-time
-- **📈 Streak Visualization** - Track your habit consistency with streak counters
+- **📊 Habit Tracking** - Mark habits as complete and monitor your progress
+- **📈 Streak Counting** - Track your habit consistency with streak counters
 - **🔄 Real-time Updates** - Changes sync instantly across devices
-- **📱 Responsive Design** - Beautiful UI that works on any mobile device
+- **💅 Material Design UI** - Clean, modern interface using React Native Paper
 
 ## 🛠️ Tech Stack
 
@@ -44,12 +44,12 @@
 2. **Managing Habits**
    - Create new habits with title, description, and frequency (daily/weekly/monthly)
    - View all your habits on the home screen
-   - Swipe to complete habits or view more actions
+   - Swipe to interact with habits
 
 3. **Tracking Progress**
    - View your streaks for all habits
-   - Get insights into your habit-forming journey
-   - Visualize completion rates and consistency
+   - Monitor streak consistency
+   - See which habits you've completed today
 
 ## 📱 App Structure
 
@@ -67,10 +67,10 @@ app/
 ## 💡 Key Features Explained
 
 ### Habit Tracking
-The app allows users to track habits with different frequencies (daily, weekly, monthly) and maintains a streak count to gamify the experience of building good habits.
+The app allows users to track habits with different frequencies (daily, weekly, monthly) and maintains a streak count to encourage habit formation.
 
 ### Real-time Updates
-Using Appwrite's realtime subscriptions, all habit changes synchronize instantly across devices, providing a seamless user experience.
+Using Appwrite's realtime subscriptions, habit changes are reflected instantly in the UI, providing a seamless user experience.
 
 ### Secure Authentication
 Complete user authentication flow with signup, login, and session management through Appwrite's secure authentication services.
@@ -78,10 +78,10 @@ Complete user authentication flow with signup, login, and session management thr
 ## 🚧 Roadmap
 
 - [ ] Dark mode support
-- [ ] Push notifications for habit reminders
-- [ ] Social sharing of achievements
-- [ ] Analytics dashboard for habit insights
 - [ ] Habit categories and tags
+- [ ] Habit analytics and insights 
+- [ ] Export habit data
+- [ ] Weekly and monthly habit reports
 
 ## 🤝 Contributing
 
