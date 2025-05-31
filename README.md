@@ -103,6 +103,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Appwrite](https://appwrite.io/) for providing an excellent open-source backend
 - [React Native Paper](https://callstack.github.io/react-native-paper/) for beautiful UI components
 
+   [youtube]for providing required tutorials
 ---
 
 <div align="center">
