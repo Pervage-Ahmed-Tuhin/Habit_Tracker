@@ -101,9 +101,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [Expo](https://expo.dev/) for making React Native development easier
 - [Appwrite](https://appwrite.io/) for providing an excellent open-source backend
-- [React Native Paper](https://callstack.github.io/react-native-paper/) for beautiful UI components
-
-   [youtube]for providing required tutorials
+- [React Native Paper](https://callstack.github.io/react-native-paper/) for beautiful UI components and youtube for providing required tutorials
 ---
 
 <div align="center">
