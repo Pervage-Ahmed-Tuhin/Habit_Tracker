@@ -1,50 +1,111 @@
-# Welcome to your Expo app 👋
+# 📱 HabitTracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
+  <img src="assets/images/icon.png" alt="HabitTracker Logo" width="200" />
+  
+  <p>
+    <strong>Track, build, and maintain your daily habits with style</strong>
+  </p>
 
-## Get started
+  <p>
+    <a href="#features">Features</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#installation">Installation</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#contributing">Contributing</a>
+  </p>
+</div>
 
-1. Install dependencies
+## 🌟 Features
 
-   ```bash
-   npm install
-   ```
+- **🔐 User Authentication** - Secure sign-up and login using Appwrite
+- **📝 Habit Creation** - Create customized habits with title, description, and frequency
+- **📊 Habit Tracking** - Mark habits as complete and view progress in real-time
+- **📈 Streak Visualization** - Track your habit consistency with streak counters
+- **🔄 Real-time Updates** - Changes sync instantly across devices
+- **📱 Responsive Design** - Beautiful UI that works on any mobile device
 
-2. Start the app
+## 🛠️ Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+- **[React Native](https://reactnative.dev/)** - Cross-platform mobile framework
+- **[Expo](https://expo.dev/)** - Development platform for React Native
+- **[Expo Router](https://docs.expo.dev/routing/introduction/)** - File-based routing
+- **[React Native Paper](https://callstack.github.io/react-native-paper/)** - Material design components
+- **[Appwrite](https://appwrite.io/)** - Backend-as-a-Service for authentication and database
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/)** - Native touch and gesture system
 
-In the output, you'll find options to open the app in a
+## 📱 Usage
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. **Authentication**
+   - Sign up for a new account or log in with existing credentials
+   - Secure authentication provided by Appwrite
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. **Managing Habits**
+   - Create new habits with title, description, and frequency (daily/weekly/monthly)
+   - View all your habits on the home screen
+   - Swipe to complete habits or view more actions
 
-## Get a fresh project
+3. **Tracking Progress**
+   - View your streaks for all habits
+   - Get insights into your habit-forming journey
+   - Visualize completion rates and consistency
 
-When you're ready, run:
+## 📱 App Structure
 
-```bash
-npm run reset-project
+```
+app/
+  ├─ _layout.tsx           # Root layout with authentication route guard
+  ├─ auth.tsx              # Authentication screen (login/signup)
+  ├─ (tabs)/               # Main app tabs
+     ├─ _layout.tsx        # Tab navigation layout
+     ├─ index.tsx          # Today's habits screen
+     ├─ add-habit.tsx      # Add new habit screen
+     ├─ streaks.tsx        # Habit streaks visualization
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 💡 Key Features Explained
 
-## Learn more
+### Habit Tracking
+The app allows users to track habits with different frequencies (daily, weekly, monthly) and maintains a streak count to gamify the experience of building good habits.
 
-To learn more about developing your project with Expo, look at the following resources:
+### Real-time Updates
+Using Appwrite's realtime subscriptions, all habit changes synchronize instantly across devices, providing a seamless user experience.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Secure Authentication
+Complete user authentication flow with signup, login, and session management through Appwrite's secure authentication services.
 
-## Join the community
+## 🚧 Roadmap
 
-Join our community of developers creating universal apps.
+- [ ] Dark mode support
+- [ ] Push notifications for habit reminders
+- [ ] Social sharing of achievements
+- [ ] Analytics dashboard for habit insights
+- [ ] Habit categories and tags
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- [Expo](https://expo.dev/) for making React Native development easier
+- [Appwrite](https://appwrite.io/) for providing an excellent open-source backend
+- [React Native Paper](https://callstack.github.io/react-native-paper/) for beautiful UI components
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by TUHIN</p>
+  <p>© 2025 HabitTracker App</p>
+</div>
